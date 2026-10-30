@@ -45,7 +45,7 @@ deviation of the actual work from the expected work for Quicksort?
 
   Letting $T$ be the number of attempts until success, $E[T] = 1 + (1 - \epsilon)E[T]$ which gives $E[T] = \frac{1}{\epsilon}$
 
-
+  With each attempt costing $w(n)$, it gives $W(n) = O(\frac{w(n)}{\epsilon})$
 
 **3 Determinism versus Randomization in Quicksort**
 
