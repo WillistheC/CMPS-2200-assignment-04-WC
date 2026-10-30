@@ -26,7 +26,7 @@ deviation of the actual work from the expected work for Quicksort?
 
 - **2a. (10 pts)** Give an algorithm to improve the guaranteed success probability and state its work.
 
-  $\mathcal{A}'(\mathcal{I}, \delta)$ should be implented by running $\mathcal{A}(\mathcal{I}), checking its output using $\mathcal{C}, returning the result if its correct, and repeating it until there is a correct output (call this at least $k$ times)
+  $\mathcal{A}'(\mathcal{I}, \delta)$ should be implemented by running $\mathcal{A}(\mathcal{I}), checking its output using $\mathcal{C}, returning the result if it's correct, and repeating at most $k$ times
 
   So, $\mathcal{P}$(success with $k$ attempts) $= 1 - (1 - \epsilon)^{k}$
 
@@ -40,6 +40,10 @@ deviation of the actual work from the expected work for Quicksort?
   algorithm that always produces the correct result, but has an
   expected runtime that depends on $w(n)$ and a success probability
   $\epsilon$.
+
+  This algorithm would just repeatedly run $\mathcal{A}(\mathcal{I}), checking its output using $\mathcal{C} until it is correct
+
+
 
 **3 Determinism versus Randomization in Quicksort**
 
