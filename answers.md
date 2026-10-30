@@ -26,7 +26,9 @@ deviation of the actual work from the expected work for Quicksort?
 
 - **2a. (10 pts)** Give an algorithm to improve the guaranteed success probability and state its work.
 
-  $\mathcal{A}'(\mathcal{I}, \delta)$
+  $\mathcal{A}'(\mathcal{I}, \delta)$ should be implented by running $\mathcal{A}(\mathcal{I}), checking its output using $\mathcal{C}, returning the result if its correct, and repeating it until there is a correct output (call this at least $k$ times)
+
+  So, $\matchcal{P}(success with $k$ attempts) = 1 - (1 - 
 
 
 - **2b. (6 pts)** Show how to convert $\mathcal{A}$ into an
