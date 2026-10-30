@@ -26,7 +26,7 @@ deviation of the actual work from the expected work for Quicksort?
 
 - **2a. (10 pts)** Give an algorithm to improve the guaranteed success probability and state its work.
 
-
+  $\mathcal{A}'(\mathcal{I}, \delta)$
 
 
 - **2b. (6 pts)** Show how to convert $\mathcal{A}$ into an
