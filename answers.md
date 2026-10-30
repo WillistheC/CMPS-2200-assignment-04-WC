@@ -30,9 +30,11 @@ deviation of the actual work from the expected work for Quicksort?
 
   So, $\mathcal{P}$(success with $k$ attempts) $= 1 - (1 - \epsilon)^{k}$
 
-  Guarente success by requiring $1 - (1 - \epsilon)^{k} >= \delta$
+  Guarantee success by requiring $1 - (1 - \epsilon)^{k} >= \delta$
 
   Combining the inequalities, after algebra, gives choose $k = \frac{ln(1 - \delta)}{ln(1 - \epsilon)}$ (rounded up to the nearest integer)
+
+  This gives work $W(n) = O(w(n) + v(n)) = O(w(n)k)$ under the assumption that $v(n)$ is an element of $(w(n)$
 
 - **2b. (6 pts)** Show how to convert $\mathcal{A}$ into an
   algorithm that always produces the correct result, but has an
