@@ -18,7 +18,7 @@ Place all written answers from `assignment-04.md` here for easier grading.
 comparisons, for a given $c>0$? What does this say about the
 deviation of the actual work from the expected work for Quicksort?
 
-  $\mathbf{P}[X \geq 10^{c}nlogn] \leq \frac{nlogn}{10^{c}nlogn} = \frac{1}{10^{c}}
+  $\mathbf{P}[X \geq 10^{c}nlogn] \leq \frac{nlogn}{10^{c}nlogn} = \frac{1}{10^{c}}$
 
   The probability of the deviation gets lower the greater the size of the deviation is, and the greater $n$ is
 
