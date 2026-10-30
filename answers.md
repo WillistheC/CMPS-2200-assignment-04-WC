@@ -53,7 +53,7 @@ deviation of the actual work from the expected work for Quicksort?
 - **3b. (8 pts)** Compare running times using `compare-qsort` between variants of
 Quicksort and the provided implementation of selection sort (`ssort`).
 
-
+  The random pivot outperformed the fixed pivot by increasingly wide margins as the list size expanded (going from just over twice as fast with size 100, to almost 20 times as fast with size 800)
 
 
 - **3c. (8 pts)** Compare the fastest of your sorting implementations to the Python sorting function `sorted`, conducting the tests in 3b above. 
