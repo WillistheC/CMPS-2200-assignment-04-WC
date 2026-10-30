@@ -56,4 +56,6 @@ Quicksort and the provided implementation of selection sort (`ssort`).
   The random pivot outperformed the fixed pivot by increasingly wide margins as the list size expanded (going from just over twice as fast with size 100, to almost 20 times as fast with size 800)
 
 
-- **3c. (8 pts)** Compare the fastest of your sorting implementations to the Python sorting function `sorted`, conducting the tests in 3b above. 
+- **3c. (8 pts)** Compare the fastest of your sorting implementations to the Python sorting function `sorted`, conducting the tests in 3b above.
+
+  ssort out performed the random pivot on the smallest list size (100), but slowly fell behind as the list size increased by increasingly large margins, but ones smaller than compared to the fixed pivot point (not even twice the time on size 200, but almost 5 times the time with size 800)
