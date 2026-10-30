@@ -30,6 +30,9 @@ deviation of the actual work from the expected work for Quicksort?
 
   So, $\mathcal{P}$(success with $k$ attempts) $= 1 - (1 - \epsilon)^{k}$
 
+  Guarente success by requiring $1 - (1 - \epsilon)^{k} >= \delta$
+
+
 
 - **2b. (6 pts)** Show how to convert $\mathcal{A}$ into an
   algorithm that always produces the correct result, but has an
