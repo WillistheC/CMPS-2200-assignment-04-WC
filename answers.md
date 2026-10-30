@@ -34,7 +34,7 @@ deviation of the actual work from the expected work for Quicksort?
 
   Combining the inequalities, after algebra, gives choose $k = \frac{ln(1 - \delta)}{ln(1 - \epsilon)}$ (rounded up to the nearest integer)
 
-  This gives work $W(n) = O(w(n) + v(n)) = O(w(n)k)$ under the assumption that $v(n)$ is an element of $(w(n)$
+  This gives work $W(n) = O(w(n) + v(n)) = O(w(n)k)$ under the assumption that $v(n)$ is an element of $w(n)$
 
 - **2b. (6 pts)** Show how to convert $\mathcal{A}$ into an
   algorithm that always produces the correct result, but has an
