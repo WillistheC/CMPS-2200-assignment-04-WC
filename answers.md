@@ -11,7 +11,7 @@ Place all written answers from `assignment-04.md` here for easier grading.
 - **1a. (5 pts)** What is the probability that Quicksort does $\Omega({n^2})$
   comparisons? 
 
-
+$$\mathbf{P}[X \geq \n^{2}] \leq \frac{nlogn}{n^2} = \frac{logn}{n}$$
 
 
 - **1b. (5 pts)** What is the probability that Quicksort does $10^c n \lg n$
