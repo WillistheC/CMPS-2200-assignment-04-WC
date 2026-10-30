@@ -43,6 +43,8 @@ deviation of the actual work from the expected work for Quicksort?
 
   This algorithm would just repeatedly run $\mathcal{A}(\mathcal{I})$, checking its output using $\mathcal{C}$ until it is correct
 
+  Letting $T$ be the number of attempts until success, $E[T] = 1 + (1 - \epsilon)E[T]$
+
 
 
 **3 Determinism versus Randomization in Quicksort**
