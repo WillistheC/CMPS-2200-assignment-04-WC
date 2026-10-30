@@ -32,7 +32,7 @@ deviation of the actual work from the expected work for Quicksort?
 
   Guarente success by requiring $1 - (1 - \epsilon)^{k} >= \delta$
 
-
+  Combining the inequalities, after algebra, gives choose $k = \frac{ln(1 - \delta)}{ln(1 - \epsilon)}$ (rounded up to the nearest integer)
 
 - **2b. (6 pts)** Show how to convert $\mathcal{A}$ into an
   algorithm that always produces the correct result, but has an
