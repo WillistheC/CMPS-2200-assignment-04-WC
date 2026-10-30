@@ -41,7 +41,7 @@ deviation of the actual work from the expected work for Quicksort?
   expected runtime that depends on $w(n)$ and a success probability
   $\epsilon$.
 
-  This algorithm would just repeatedly run $\mathcal{A}(\mathcal{I}), checking its output using $\mathcal{C} until it is correct
+  This algorithm would just repeatedly run $\mathcal{A}(\mathcal{I})$, checking its output using $\mathcal{C}$ until it is correct
 
 
 
