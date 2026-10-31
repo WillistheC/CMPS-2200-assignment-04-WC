@@ -11,8 +11,15 @@ def ssort(a):
 
 
 def qsort(a, pivot_fn):
-    ## TO DO
-    pass
+    if len(a) == 0:
+        return a
+    p = pivot_fn(a)
+    a1 = [x for x in a if x < p]
+    a2 = [x for x in a if x == p]
+    a3 = [x for x in a if x > p]
+    s1 = qsort(a1, pivot_fn)
+    s3 = qsort(a3, pivot_fn)
+    return s1 + a2 + s3
     
 def time_sort(sort_fn, mylist):
     """
@@ -47,8 +54,8 @@ def compare_sort(sizes=[100, 200, 400, 800]): #, 1600, 3200, 6400, 12800, 25600,
       for each method to run on each value of n
     """
     ### TODO - sorting algorithms for comparison
-    qsort_fixed_pivot = #
-    qsort_random_pivot = #
+    qsort_fixed_pivot = lambda a: qsort(a, lambda xs: xs[0])
+    qsort_random_pivot = lambda a: qsort(a, random.choice)
     # tim_sort = sorted
     result = []
     for size in sizes:
